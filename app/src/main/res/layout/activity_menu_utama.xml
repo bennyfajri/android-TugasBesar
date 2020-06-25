@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fl_pegawai"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#F38A75">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/icon_user"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/profile2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_user"
+                android:layout_centerHorizontal="true"
+                android:text="Pegawai"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_gaji"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#77CDD5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/icon_gaji"
+                android:src="@drawable/gaji2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_gaji"
+                android:layout_centerHorizontal="true"
+                android:text="Hitung\nGaji"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_produk"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#D4D8DB">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/icon_produk"
+                android:src="@drawable/troli2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_produk"
+                android:layout_centerHorizontal="true"
+                android:text="Produk"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_lokasi"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#6B7A88">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/icon_Lokasi"
+                android:src="@drawable/lokasi2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_Lokasi"
+                android:layout_centerHorizontal="true"
+                android:text="Lokasi"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</androidx.gridlayout.widget.GridLayout>

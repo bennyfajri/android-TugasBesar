@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ActivityInputPegawai"
+        android:padding="24dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Input Data Pegawai"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Pegawai"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/edtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Pegawai"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinBagian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bagian"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama lengkap Pegawai"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:id="@+id/rgJekel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <RadioButton
+                android:id="@+id/rbLaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki - Laki "/>
+            <RadioButton
+                android:id="@+id/rbPerempuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:layout_marginLeft="16dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/edtTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tap dua kali"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daerah Asal"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edtAsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Daerah asal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/status"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foto "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="12dp"/>
+        <EditText
+            android:id="@+id/edtPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Photo dalam bentuk link yang harus diupload dahulu"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
+
+</ScrollView>

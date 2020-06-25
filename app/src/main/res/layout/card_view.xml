@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="160dp"
+            android:layout_height="230dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="ID pegawai"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/txt_id"
+            android:text="Nama"/>
+
+        <TextView
+            android:id="@+id/txt_jekel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_below="@id/txt_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Jenis Kelamin"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_tglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_below="@id/txt_jekel"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Tanggal Lahir"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_daerahAsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_below="@id/txt_tglLahir"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Daerah Asal"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_below="@id/txt_daerahAsal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Status"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_posisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_below="@id/txt_status"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Posisi"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@id/img_item_photo">
+            <Button
+                android:id="@+id/btn_edit_pegawai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btn_delete_pegawai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
