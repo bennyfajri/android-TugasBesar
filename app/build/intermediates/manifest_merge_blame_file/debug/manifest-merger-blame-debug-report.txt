@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.benny.tugasbesar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:10:5-67
+16-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:12:5-55:19
+26        android:allowBackup="true"
+26-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:18:9-40
+35        android:usesCleartextTraffic="true" >
+35-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:19:9-44
+36        <activity android:name="com.benny.tugasbesar.DetailGaji" />
+36-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:20:9-57
+36-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:20:19-45
+37        <activity android:name="com.benny.tugasbesar.MenuGaji" />
+37-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:21:9-46
+37-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:21:19-43
+38        <activity android:name="com.benny.tugasbesar.EditPegawai" />
+38-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:22:9-49
+38-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:22:19-46
+39        <activity android:name="com.benny.tugasbesar.SplashScreen" />
+39-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:23:9-50
+39-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:23:19-47
+40        <activity android:name="com.benny.tugasbesar.ListPegawai" />
+40-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:24:9-49
+40-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:24:19-46
+41        <activity android:name="com.benny.tugasbesar.MenuPegawai" />
+41-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:25:9-49
+41-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:25:19-46
+42        <activity android:name="com.benny.tugasbesar.ActivityProduk" />
+42-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:26:9-52
+42-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:26:19-49
+43        <activity android:name="com.benny.tugasbesar.ActivityHitungGaji" />
+43-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:27:9-56
+43-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:27:19-53
+44        <!--
+45             The API key for Google Maps-based APIs is defined as a string resource.
+46             (See the file "res/values/google_maps_api.xml").
+47             Note that the API key is linked to the encryption key used to sign the APK.
+48             You need a different API key for each encryption key, including the release key that is used to
+49             sign the APK for publishing.
+50             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+51        -->
+52        <meta-data
+52-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:36:9-38:55
+53            android:name="com.google.android.geo.API_KEY"
+53-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:37:13-58
+54            android:value="@string/google_maps_key" />
+54-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:38:13-52
+55
+56        <activity
+56-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:40:9-42:61
+57            android:name="com.benny.tugasbesar.ActivityLokasi"
+57-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:41:13-43
+58            android:label="@string/title_activity_lokasi" />
+58-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:42:13-58
+59        <activity android:name="com.benny.tugasbesar.ActivityInputPegawai" />
+59-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:43:9-58
+59-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:43:19-55
+60        <activity android:name="com.benny.tugasbesar.MenuUtama" >
+60-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:44:9-50:20
+60-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:44:19-44
+61            <intent-filter>
+61-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:45:13-49:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:46:17-69
+62-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:46:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:48:17-77
+64-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:48:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:51:9-54:59
+68            android:name="com.benny.tugasbesar.MainActivity"
+68-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:52:13-41
+69            android:label="@string/app_name"
+69-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:53:13-45
+70            android:theme="@style/AppTheme.NoActionBar" />
+70-->D:\AndroidStudioProjects\TugasBesar\app\src\main\AndroidManifest.xml:54:13-56
+71        <!-- Needs to be explicitly declared on P+ -->
+72        <uses-library
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+73            android:name="org.apache.http.legacy"
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+74            android:required="false" />
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84
+85        <provider
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+86            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+87            android:authorities="com.benny.tugasbesar.lifecycle-process"
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+88            android:exported="false"
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+89            android:multiprocess="true" />
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mbfaj\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+90    </application>
+91
+92</manifest>
